@@ -53,6 +53,8 @@ Create empty table from codebook
 -- This example has five arguments separated by a comma
 -- that contain the "column_name" and "column_type", respectively
 
+
+DROP TABLE IF EXISTS drivers;
 CREATE TABLE drivers(
     driver_id int,
     driver_name varchar(30),
