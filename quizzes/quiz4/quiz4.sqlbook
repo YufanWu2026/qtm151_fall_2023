@@ -167,7 +167,7 @@ number of rows by "driverId" ```GROUP BY``` <br>
 -- SQLBook: Code
 -- Write your own code
 SELECT "driverId", 
-        COUNT(*) AS pit_stop_count
+        COUNT(*) AS num_stop_count
 FROM pit_stops
 GROUP BY "driverId"
 HAVING COUNT(*) > 200;
